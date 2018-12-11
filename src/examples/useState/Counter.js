@@ -1,17 +1,15 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-function Counter () {
-  // Declare a new state variable, which we'll call "count"
-  const [count, setCount] = useState(0)
+import StateWrapper from './StateWrapper'
 
-  return (
+const Counter = ({count, setCount, name}) => 
     <div>
-      <p>You clicked {count} times</p>
+      <p>Hi {name}, You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>
-    </div>
-  )
-}
+    </div>;
 
-export default Counter
+const mapTuple = ([count, setCount]) => ({count, setCount});
+
+export default StateWrapper(1, mapTuple)(Counter);

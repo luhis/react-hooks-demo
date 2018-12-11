@@ -5,7 +5,7 @@ import Counter from './examples/useState/Counter'
 class App extends Component {
   render () {
     return (
-      <Counter />
+      <Counter  name="matt from App.js" />
     )
   }
 }
