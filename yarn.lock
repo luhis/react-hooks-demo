@@ -4252,6 +4252,11 @@ homedir-polyfill@^1.0.1:
   dependencies:
     parse-passwd "^1.0.0"
 
+hookly@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/hookly/-/hookly-0.0.5.tgz#b13ff42de95fbfbc3c616efc9b4ed68a363b2b5b"
+  integrity sha512-QzRWhO1wCjWJ8IqXeSNnm2s1SgwLPtl4dw1r5vERy4G67b/vEg3gVn4Ps0/ioHkTe2bkEmgreTX/+1T6TGP1lw==
+
 hoopy@^0.1.2:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/hoopy/-/hoopy-0.1.4.tgz#609207d661100033a9a9402ad3dea677381c1b1d"
